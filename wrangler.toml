@@ -1,4 +1,4 @@
-name = "jstgbott"
+name = "jag"
 main = "workers.js"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
