@@ -298,7 +298,7 @@ async function handleDone(msg, env) {
 
   const workerUrl = env.WORKER_URL || "https://yourbot.workers.dev";
   const batchLink = `${workerUrl}/batch/${batchId}`;
-  const deepLink = `https://t.me/${env.BOT_USERNAME}?start=batch_${batchId}`;
+  const deepLink = `https://t.me/${env.BOT_USERNAME}?start=file_${fileUid}`;
 
   await sendMessage(
     env,
