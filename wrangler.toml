@@ -3,25 +3,11 @@ main = "workers.js"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
 
-# ─── KV Namespace ──────────────────────────────────────────────────────────────
-# Create with: wrangler kv:namespace create "KV"
-# Then paste the id below
 [[kv_namespaces]]
 binding = "KV"
 id = "6cde3daaf348409aa8513ec82c53b791"
 
-# ─── Environment Variables ─────────────────────────────────────────────────────
-# Secrets are set via: wrangler secret put <KEY>
-# Do NOT put secrets here — use wrangler secret put or the dashboard
-
 [vars]
-BOT_USERNAME    = "your_bot_username"        # without @
-WORKER_URL      = "https://jstgbott.workers.dev"
-FORCE_SUB_CHANNELS = "@your_channel"         # comma-separated, e.g. "@chan1,@chan2" or leave empty
-
-# ─── Secrets (set via CLI, not here) ──────────────────────────────────────────
-# wrangler secret put BOT_TOKEN
-# wrangler secret put CHANNEL_ID          (e.g. -100123456789)
-# wrangler secret put ADMINS              (e.g. 123456,789012)
-# wrangler secret put WEBHOOK_SECRET      (any random string)
-
+BOT_USERNAME = "your_bot_username"
+WORKER_URL = "https://jstgbott.workers.dev"
+FORCE_SUB_CHANNELS = ""
