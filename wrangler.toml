@@ -16,7 +16,7 @@ id = "6cde3daaf348409aa8513ec82c53b791"
 
 [vars]
 BOT_USERNAME    = "your_bot_username"        # without @
-WORKER_URL      = "https://your-worker.your-subdomain.workers.dev"
+WORKER_URL      = "https://jstgbott.workers.dev"
 FORCE_SUB_CHANNELS = "@your_channel"         # comma-separated, e.g. "@chan1,@chan2" or leave empty
 
 # ─── Secrets (set via CLI, not here) ──────────────────────────────────────────
@@ -24,12 +24,4 @@ FORCE_SUB_CHANNELS = "@your_channel"         # comma-separated, e.g. "@chan1,@ch
 # wrangler secret put CHANNEL_ID          (e.g. -100123456789)
 # wrangler secret put ADMINS              (e.g. 123456,789012)
 # wrangler secret put WEBHOOK_SECRET      (any random string)
-
-# ─── Routes ────────────────────────────────────────────────────────────────────
-# Uncomment if using a custom domain
-# routes = [{ pattern = "bot.yourdomain.com/*", zone_name = "yourdomain.com" }]
-
-# ─── Build ─────────────────────────────────────────────────────────────────────
-[build]
-command = ""
 
