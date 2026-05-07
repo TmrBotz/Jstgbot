@@ -33,6 +33,3 @@ FORCE_SUB_CHANNELS = "@your_channel"         # comma-separated, e.g. "@chan1,@ch
 [build]
 command = ""
 
-# ─── Limits ────────────────────────────────────────────────────────────────────
-[limits]
-cpu_ms = 50
