@@ -1,4 +1,4 @@
-name = "telegram-filestore-bot"
+name = "jstgbott"
 main = "workers.js"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
@@ -8,7 +8,7 @@ compatibility_flags = ["nodejs_compat"]
 # Then paste the id below
 [[kv_namespaces]]
 binding = "KV"
-id = "YOUR_KV_NAMESPACE_ID"
+id = "6cde3daaf348409aa8513ec82c53b791"
 
 # ─── Environment Variables ─────────────────────────────────────────────────────
 # Secrets are set via: wrangler secret put <KEY>
